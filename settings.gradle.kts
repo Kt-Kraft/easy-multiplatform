@@ -4,7 +4,6 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
   repositories {
-    mavenLocal()
     maven(url = "https://maven.pkg.github.com/Kt-Kraft/build-logic/") {
       credentials {
         username = System.getenv("GITHUB_USERNAME")

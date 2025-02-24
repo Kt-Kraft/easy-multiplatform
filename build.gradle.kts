@@ -14,7 +14,6 @@ plugins {
   alias(libs.plugins.convention.publishing) apply false
   alias(libs.plugins.convention.publish.config) apply false
   alias(libs.plugins.kotlin.ksp) apply false
-  alias(libs.plugins.kotlinCocoapods) apply false
   alias(libs.plugins.convention.android.config)
   alias(libs.plugins.convention.multiplatform.config)
   alias(libs.plugins.ben.manes.versions)
