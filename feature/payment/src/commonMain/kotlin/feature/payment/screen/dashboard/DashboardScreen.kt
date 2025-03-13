@@ -1,4 +1,4 @@
-package feature.homepage.screen.dashboard
+package feature.payment.screen.dashboard
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -31,7 +31,7 @@ public fun DashboardScreen(
       verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
       Text(
-        text = "Homepage",
+        text = "Payment",
         fontSize = 32.sp,
         fontWeight = FontWeight.Bold
       )

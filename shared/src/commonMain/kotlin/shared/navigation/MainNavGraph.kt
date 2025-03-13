@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import feature.homepage.navigation.homepageNavigation
+import feature.payment.navigation.paymentNavigation
 
 @Composable
 public fun MainNavGraph(
@@ -14,6 +15,7 @@ public fun MainNavGraph(
     navController = navController,
     startDestination = startDestination,
   ) {
-    homepageNavigation()
+    homepageNavigation(navController)
+    paymentNavigation(navController)
   }
 }

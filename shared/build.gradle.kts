@@ -18,6 +18,7 @@ kotlin {
       api(projects.core.navigation)
 
       api(projects.feature.homepage)
+      api(projects.feature.payment)
 
       // Others
       implementation(compose.ui)

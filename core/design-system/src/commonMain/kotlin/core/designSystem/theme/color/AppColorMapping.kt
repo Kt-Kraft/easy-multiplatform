@@ -1,6 +1,34 @@
 package core.designSystem.theme.color
 
 import androidx.compose.ui.graphics.Color
+import core.designSystem.theme.blue1
+import core.designSystem.theme.blue5
+import core.designSystem.theme.blue6
+import core.designSystem.theme.blue7
+import core.designSystem.theme.blue8
+import core.designSystem.theme.blue9
+import core.designSystem.theme.green5
+import core.designSystem.theme.neutral0
+import core.designSystem.theme.neutral1
+import core.designSystem.theme.neutral10
+import core.designSystem.theme.neutral11
+import core.designSystem.theme.neutral2
+import core.designSystem.theme.neutral3
+import core.designSystem.theme.neutral4
+import core.designSystem.theme.neutral5
+import core.designSystem.theme.neutral6
+import core.designSystem.theme.neutral7
+import core.designSystem.theme.neutral8
+import core.designSystem.theme.neutral9
+import core.designSystem.theme.red1
+import core.designSystem.theme.red5
+import core.designSystem.theme.red6
+import core.designSystem.theme.red8
+import core.designSystem.theme.yellow1
+import core.designSystem.theme.yellow3
+import core.designSystem.theme.yellow5
+import core.designSystem.theme.yellow6
+import core.designSystem.theme.yellow8
 
 /**
  * Light Color Scheme

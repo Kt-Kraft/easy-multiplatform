@@ -1,4 +1,4 @@
-package feature.homepage.screen.dashboard
+package feature.payment.screen.dashboard
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel

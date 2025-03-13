@@ -6,10 +6,10 @@ import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import shared.Main
 import org.koin.androidx.compose.KoinAndroidContext
+import shared.Main
 
-public class MainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     val splashScreen = installSplashScreen()

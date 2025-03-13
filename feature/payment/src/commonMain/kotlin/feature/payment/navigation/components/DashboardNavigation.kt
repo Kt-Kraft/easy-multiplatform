@@ -1,4 +1,4 @@
-package feature.homepage.navigation.components
+package feature.payment.navigation.components
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
@@ -8,10 +8,10 @@ import core.navigation.enterPop
 import core.navigation.enterPush
 import core.navigation.exitPop
 import core.navigation.exitPush
-import feature.homepage.screen.dashboard.DashboardDestination
+import feature.payment.screen.dashboard.DashboardDestination
 
 internal fun NavGraphBuilder.dashboardNavigation(navController: NavController) {
-  composable<Screen.Homepage>(
+  composable<Screen.Payment>(
     popEnterTransition = enterPop,
     enterTransition = enterPush,
     popExitTransition = exitPop,

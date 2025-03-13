@@ -1,4 +1,4 @@
-package feature.homepage.screen.dashboard
+package feature.payment.screen.dashboard
 
 public interface DashboardContract {
 

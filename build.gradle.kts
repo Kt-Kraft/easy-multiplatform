@@ -16,24 +16,15 @@ plugins {
   alias(libs.plugins.kotlin.ksp) apply false
   alias(libs.plugins.convention.android.config)
   alias(libs.plugins.convention.multiplatform.config)
+  alias(libs.plugins.convention.commitlint)
   alias(libs.plugins.ben.manes.versions)
   alias(libs.plugins.version.catalog.update)
-  alias(libs.plugins.convention.commitlint)
 }
 
 convention {
   multiplatform {
     android.set(true)
     iOS.set(true)
-  }
-}
-
-versionCatalogUpdate {
-  sortByKey.set(true)
-  keep {
-    keepUnusedVersions.set(true)
-    keepUnusedLibraries.set(true)
-    keepUnusedPlugins.set(true)
   }
 }
 
@@ -46,5 +37,14 @@ fun isNonStable(version: String): Boolean {
 tasks.withType<DependencyUpdatesTask> {
   rejectVersionIf {
     isNonStable(candidate.version)
+  }
+}
+
+versionCatalogUpdate {
+  sortByKey.set(true)
+  keep {
+    keepUnusedVersions.set(true)
+    keepUnusedLibraries.set(true)
+    keepUnusedPlugins.set(true)
   }
 }
