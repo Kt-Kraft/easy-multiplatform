@@ -5,7 +5,4 @@ import kotlinx.serialization.Serializable
 public object Screen {
   @Serializable
   public object Homepage
-
-  @Serializable
-  public object Payment
 }

@@ -40,4 +40,3 @@ include(":core:design-system")
 include(":core:navigation")
 
 include(":feature:homepage")
-include(":feature:payment")

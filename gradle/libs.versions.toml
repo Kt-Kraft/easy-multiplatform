@@ -2,12 +2,13 @@
 activityCompose = "1.10.1"
 activityKtx = "1.10.1"
 androidToolsBuild = "8.7.3"
-androidxComposeBom = "2025.02.00"
+androidxComposeBom = "2025.03.00"
 androidxCoreKtx = "1.15.0"
 androidxCoreSplashscreen = "1.0.1"
 androidxDataStore = "1.1.3"
 androidxEspressoCore = "3.6.1"
-androidxMetrics = "1.0.0-beta01"
+androidxLifecycleCompose = "2.8.4"
+androidxMetrics = "1.0.0-beta02"
 androidxProfileinstaller = "1.4.1"
 androidxTracing = "1.2.0"
 androidxWindow = "1.3.0"
@@ -19,7 +20,7 @@ cloudy = "0.1.1"
 coil = "2.7.0"
 exifinterface = "1.4.0"
 firebaseAuthKtx = "23.2.0"
-firebaseBom = "33.9.0"
+firebaseBom = "33.10.0"
 indramahkota = "1.3.3"
 installreferrer = "2.2"
 jetbrainsCompose = "1.7.3"
@@ -38,8 +39,9 @@ lottie = "6.5.2"
 mapbox = "10.16.2"
 mockito = "5.4.0"
 molecule = "2.0.0"
-navigation = "2.8.8"
-navigationCompose = "2.8.0-alpha11"
+navigation = "2.8.9"
+navigationCompose = "2.8.0-alpha12"
+nomanrComposables = "1.1.0"
 paging = "3.3.6"
 pagingCommonAndroid = "3.3.6"
 playServicesAuth = "21.3.0"
@@ -71,6 +73,7 @@ androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", versi
 androidx-data-store-core = { module = "androidx.datastore:datastore", version.ref = "androidxDataStore" }
 androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidxEspressoCore" }
 androidx-exifinterface = { module = "androidx.exifinterface:exifinterface", version.ref = "exifinterface" }
+androidx-lifecycle-runtime-multiplatform = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidxLifecycleCompose" }
 androidx-metrics = { module = "androidx.metrics:metrics-performance", version.ref = "androidxMetrics" }
 androidx-paging-common-android = { module = "androidx.paging:paging-common-android", version.ref = "pagingCommonAndroid" }
 androidx-profileinstaller = { module = "androidx.profileinstaller:profileinstaller", version.ref = "androidxProfileinstaller" }
@@ -99,10 +102,10 @@ jetbrains-lifecycle-viewmodel-compose = { module = "org.jetbrains.androidx.lifec
 jetbrains-navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version.ref = "jgit" }
 joda-time_android = { module = "net.danlew:android.joda", version.ref = "joda" }
-koin-compose = { module = "io.insert-koin:koin-compose" }
 koin-android = { module = "io.insert-koin:koin-android" }
-koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin" }
 koin-android-compose = { module = "io.insert-koin:koin-androidx-compose" }
+koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin" }
+koin-compose = { module = "io.insert-koin:koin-compose" }
 koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel" }
 koin-compose-viewmodel-navigation = { module = "io.insert-koin:koin-compose-viewmodel-navigation" }
 koin-core = { module = "io.insert-koin:koin-core" }
@@ -151,6 +154,7 @@ mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }
 mockito-inline = { module = "org.mockito:mockito-inline", version.ref = "mockito" }
 molecule-runtime = { module = "app.cash.molecule:molecule-runtime", version.ref = "molecule" }
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+nomanr-composables = { module = "com.nomanr:composables", version.ref = "nomanrComposables" }
 paging-compose = { module = "androidx.paging:paging-compose", version.ref = "paging" }
 paging-runtime = { module = "androidx.paging:paging-runtime", version.ref = "paging" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
@@ -196,8 +200,8 @@ convention-android-lib = { id = "android.lib", version.ref = "indramahkota" }
 convention-commitlint = { id = "commitlint", version.ref = "indramahkota" }
 convention-compose-app = { id = "compose.app", version.ref = "indramahkota" }
 convention-compose-lib = { id = "compose.lib", version.ref = "indramahkota" }
-convention-multiplatform-config = { id = "multiplatform.config", version.ref = "indramahkota" }
 convention-multiplatform = { id = "multiplatform", version.ref = "indramahkota" }
+convention-multiplatform-config = { id = "multiplatform.config", version.ref = "indramahkota" }
 convention-publish-config = { id = "publish.config", version.ref = "indramahkota" }
 convention-publishing = { id = "publish", version.ref = "indramahkota" }
 jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "jetbrainsCompose" }
